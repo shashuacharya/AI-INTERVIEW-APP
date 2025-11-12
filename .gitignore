@@ -1,0 +1,67 @@
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend
+ml-backend/__pycache__/
+ml-backend/.venv/
+ml-backend/venv/
+ml-backend/env/
+ml-backend/.env
+ml-backend/*.pyc
+ml-backend/*.pyo
+ml-backend/*.pyd
+ml-backend/.Python
+ml-backend/pip-log.txt
+ml-backend/pip-delete-this-directory.txt
+ml-backend/unit_tests.xml
+ml-backend/htmlcov/
+ml-backend/.tox/
+ml-backend/.coverage
+ml-backend/.cache
+ml-backend/.mypy_cache/
+ml-backend/.pytest_cache/
+ml-backend/models/
+ml-backend/uploads/
+ml-backend/temp/
+ml-backend/tmp/
+
+# Proxy
+proxy-server/node_modules/
+proxy-server/.env
+proxy-server/npm-debug.log*
+proxy-server/uploads/
+proxy-server/temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
